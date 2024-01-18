@@ -53,7 +53,7 @@ inputs:
         - user
       with_columns: []
     app_defaults:
-      table: track_100k
+      table: tracks_100k
       occurred_at_col: timestamp
       ids:
         - select: "user_id"
